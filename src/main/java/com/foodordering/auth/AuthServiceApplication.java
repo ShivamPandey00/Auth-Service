@@ -9,6 +9,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableFeignClients
 public class AuthServiceApplication {
+
+    ///Ref user_posts: posts.user_id > users.id
     public static void main(String[] args) {
         SpringApplication.run(AuthServiceApplication.class, args);
     }
